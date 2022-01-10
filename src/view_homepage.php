@@ -7,7 +7,6 @@
 <div class="bg1 bg4"></div>
 <div class="bg1 bg5"></div>
 
-
 <div class="container">
     <div class="row mt-5">
         <div class="col-12 mt-5 ">
@@ -28,7 +27,17 @@ Encadré par des experts dans les domaines de recherche et de veille information
     <div class="col-3">;
   </div>
 </div>
-
+<div class="container backgroundBande " >
+  <div class="row-full shadow ">
+      <span class="text-center ">
+          <div class="col-12 pt-4 ">
+            <h1 class="fontbandeau" >Nos Compétences</h1>
+          </div>
+        </div>
+      
+      </span>
+    </div>
+</div>
 <div class="container ">
   <div class="row ">
     <div class="col-1"></div>
@@ -116,7 +125,7 @@ Encadré par des experts dans les domaines de recherche et de veille information
   <div class="row-full shadow ">
       <span class="text-center ">
           <div class="col-12 pt-4 ">
-            <h1 class="fontbandeau" >Ils nous on fait confiance</h1>
+            <h1 class="fontbandeau" >Ils nous ont fait confiance</h1>
           </div>
         </div>
       
@@ -147,6 +156,67 @@ Encadré par des experts dans les domaines de recherche et de veille information
       </span>
     </div>
 </div>
+
+
+
+<div class="container d-inline">
+  <div class="row mt-5 ">
+    <div class="col-1 text-center">
+      <img src="img/default-image.jpg" class="w-50 img-fluid "  aria-hidden="true" id="img1">
+      <figcaption>Titre</figcaption>
+    </div>
+    <div class="col-1 text-center">
+      <img src="img/default-image.jpg" class="w-50 img-fluid pt-5"  aria-hidden="true" id="img2">
+      <figcaption>Titre</figcaption>
+    </div>
+    <div class="col-1 text-center">
+      <img src="img/default-image.jpg" class="w-50 img-fluid "  aria-hidden="true" id="img3">
+      <figcaption>Titre</figcaption>
+    </div>
+    <div class="col-1 text-center">
+      <img src="img/default-image.jpg" class="w-50 img-fluid pt-5"  aria-hidden="true" id="img4">
+      <figcaption>Titre</figcaption>
+    </div>
+    <div class="col-1 text-center">
+      <img src="img/default-image.jpg" class="w-50 img-fluid"  aria-hidden="true" id="img5">
+      <figcaption>Titre</figcaption>
+    </div>
+    <div class="col-1 text-center">
+      <img src="img/default-image.jpg" class="w-50 img-fluid pt-5"  aria-hidden="true" id="img6">
+      <figcaption>Titre</figcaption>
+    </div>
+    <div class="col-1 text-center">
+      <img src="img/default-image.jpg" class="w-50 img-fluid "  aria-hidden="true" id="img7">
+      <figcaption>Titre</figcaption>
+    </div>
+    <div class="col-1 text-center">
+      <img src="img/default-image.jpg" class="w-50 img-fluid pt-5 "  aria-hidden="true">
+      <figcaption>Titre</figcaption>
+    </div>
+    <div class="col-1 text-center">
+      <img src="img/default-image.jpg" class="w-50 img-fluid"  aria-hidden="true">
+      <figcaption>Titre</figcaption>
+    </div>
+    <div class="col-1 text-center">
+      <img src="img/default-image.jpg" class="w-50 img-fluid pt-5"  aria-hidden="true">
+      <figcaption>Titre</figcaption>
+    </div>
+    <div class="col-1 text-center">
+      <img src="img/default-image.jpg" class="w-50 img-fluid"  aria-hidden="true">
+      <figcaption>Titre</figcaption>
+    </div>
+    <div class="col-1 text-center">
+      <img src="img/default-image.jpg" class="w-50 img-fluid pt-5"  aria-hidden="true">
+      <figcaption>Titre</figcaption>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+</script>
         
 
 <?php include "inc/footer.php"; ?>
