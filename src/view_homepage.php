@@ -24,42 +24,14 @@ Encadré par des experts dans les domaines de recherche et de veille information
     </div>
     <div class="col-3"  >
     </div >
-    <div class="col-3">
-
+    <div class="col-3">;
   </div>
 </div>
-
-<input type="button" value="" onClick="AfficherMasquer()"  style="background:transparent;border:none ; width:20px"/>
-            <script type="text/javascript">
-                function AfficherMasquer()
-                {
-                divInfo = document.getElementById('divacacher');
-                var audio = new Audio('audio/audio.mp3').play()
-                
-                if (divInfo.style.display == 'none')
-                divInfo.style.display = 'block';
-                
-                
-                else
-                divInfo.style.display = 'none';
-                
-                }
-                
-                </script>
-               
-            
-                <div id="divacacher" style="display:none;">             
-                    <img src="img/tope.png"  alt="profile-image" class=" img-fluid w-50 h-50" style="z-index:1"/>
-                </div>
-
 <div class="container backgroundBande " >
   <div class="row-full shadow ">
-      <span class="text-center "> 
-        
+      <span class="text-center ">
           <div class="col-12 pt-4 ">
-          
             <h1 class="fontbandeau" >Nos Compétences</h1>
-            
           </div>
         </div>
       

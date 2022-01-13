@@ -15,5 +15,3 @@ let animation = anime({
   targets:'h1',
   translateX: '40%'
 })
-
-

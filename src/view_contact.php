@@ -32,11 +32,9 @@
             <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <input class="btn btn-primary w-100 rounded" type="submit" value="Envoyer">
         </div>
         <div class ="col-4"></div>
     </div>
-    
 </div>
 
 <?php include "inc/footer.php"; ?>

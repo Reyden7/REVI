@@ -1,9 +1,17 @@
+.logo-image{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
 
 .fixed-top, .sb-nav-fixed{
     position:fixed;
     top:0;
     right: 0;
     left: 0;
+    margin-bottom: 50px;
+   
+
 }
-
-
