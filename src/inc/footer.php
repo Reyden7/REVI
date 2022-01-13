@@ -21,15 +21,11 @@
                   
                 </div>
                 <div class="col-4 ">
-               
-
                 <button type="button" class="btn btn-secondary ms-2" data-bs-toggle="popover" title="Nos coordonées : " 
                     data-bs-content= "UFR Langues et Communication, Téléphone :33 (0)3 XX XX XX XX, ja@gmail.com.">Nous contacter</button>
                 </div>
                
-                
-                
-                
+            </div>
             </div>
             
         </footer>
