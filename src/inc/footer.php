@@ -13,15 +13,16 @@
                 <li class="list-inline-item"><a href="#">Contact</a></li>
             </ul>
             <div class="container mt-2">
-            <div class="row align-items-start text-center">
-                <div class="col">
-                 <a href ="https://langues-communication.u-bourgogne.fr/formation/master/recherche-et-veille-documentaire-revi.html">Découvrir le Master REVI</a>
+            <div class="row  text-center">
+                <div class="col-4 ">
+                    <a href ="https://langues-communication.u-bourgogne.fr/formation/master/recherche-et-veille-documentaire-revi.html">Découvrir le Master REVI</a>
                 </div>
-                <div class="col text-justify">
+                <div class="col-4 text-justify">
+                  
+                </div>
+                <div class="col-4 ">
                 <button type="button" class="btn btn-secondary ms-2" data-bs-toggle="popover" title="Nos coordonées : " 
-                data-bs-content= "UFR Langues et Communication, Téléphone :33 (0)3 XX XX XX XX, ja@gmail.com.">Nous contacter</button>
-                
-
+                    data-bs-content= "UFR Langues et Communication, Téléphone :33 (0)3 XX XX XX XX, ja@gmail.com.">Nous contacter</button>
                 </div>
                
             </div>
