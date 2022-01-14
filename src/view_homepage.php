@@ -25,7 +25,6 @@ Encadré par des experts dans les domaines de recherche et de veille information
     <div class="col-3"  >
     </div >
     <div class="col-3">
-
   </div>
 </div>
 
