@@ -186,17 +186,20 @@ Encadré par des experts dans les domaines de recherche et de veille information
 
 
 
-<div class="container d-inline">
-  <div class="row mt-5 ">
-    <div class="row">
-      <div class="col-2"></div>
-      <div class="col-8">
-      <span class="text-justify">Découvrez les réalisations dirigées par les étudiants du Master REVI </span>
-      </div>
-<div class="col-2 "></div>
-
-
 <div class="container mt-5">
+  <div class="row  ">
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6">
+      <span class="text-center">Découvrez les réalisations dirigées par les étudiants du Master REVI </span>
+      </div>
+    <div class="col-3">
+  </div>
+</div>
+
+
+
+<div class="container-fluid mt-5">
   </div class="row">
     <div class="col-1 text-center">
       <img src="img/default-image.jpg" class="w-50 img-fluid "  aria-hidden="true" id="img1">
