@@ -118,7 +118,7 @@ Encadré par des experts dans les domaines de recherche et de veille information
     </h2>
     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show shadow" aria-labelledby="panelsStayOpen-headingOne">
       <div class="accordion-body shadow">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      Le cursus veille se basant sur l’analyse et la diffusion d’informations concernant notamment les réseaux sociaux, le community management est un des débouchés du Master REVI. La junior agence peut s’occuper de la communication de votre entreprise.
       </div>
     </div>
   </div>
@@ -162,7 +162,7 @@ Encadré par des experts dans les domaines de recherche et de veille information
 
 <div class="container mt-5 ">
  
-  <div class="row">
+  <div class=" row">
   <div class="marquee">
     <ul class="marquee-content">
       <li><img src="img/OA.png" class="w-50"  aria-hidden="true"></i></li>
@@ -188,6 +188,16 @@ Encadré par des experts dans les domaines de recherche et de veille information
 
 <div class="container d-inline">
   <div class="row mt-5 ">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8">
+      <span class="text-justify">Découvrez les réalisations dirigées par les étudiants du Master REVI </span>
+      </div>
+<div class="col-2 "></div>
+
+
+<div class="container mt-5">
+  </div class="row">
     <div class="col-1 text-center">
       <img src="img/default-image.jpg" class="w-50 img-fluid "  aria-hidden="true" id="img1">
       <figcaption>Titre</figcaption>
@@ -240,8 +250,38 @@ Encadré par des experts dans les domaines de recherche et de veille information
 
 </div>
 
+<div class="container d-inline">
+  <div class="row mt-5 ">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8">
+      <span class="text-justify">
 
+ET SI ON ECHANGEAIT ?
+Ces réalisations vous ont intéressés ? Vous rêvez d’en savoir plus sur l’agence et sur ce que l’on vous propose ? Vous souhaitez collaborer avec nous ? Nous serons heureux d’échanger avec vous !
 
+              </span>
+      </div>
+<div class="col-2 "></div>
+
+<div class="container">
+    <div class="row">
+        <div class ="col-4"></div>
+        <div class="col-4">
+            <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <input class="btn btn-primary w-100 rounded" type="submit" value="Envoyer">
+        </div>
+        <div class ="col-4"></div>
+    </div>
+    
+</div>
 
 </script>
         
