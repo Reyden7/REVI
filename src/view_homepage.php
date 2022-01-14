@@ -191,7 +191,7 @@ Encadré par des experts dans les domaines de recherche et de veille information
     <div class="row">
       <div class="col-3"></div>
       <div class="col-6">
-      <span class="text-center">Découvrez les réalisations dirigées par les étudiants du Master REVI </span>
+      <span class="text-center"><h4>Découvrez les réalisations dirigées par les étudiants du Master REVI</h4> </span>
       </div>
     <div class="col-3">
   </div>
@@ -260,8 +260,8 @@ Encadré par des experts dans les domaines de recherche et de veille information
       <div class="col-8">
       <span class="text-justify">
 
-ET SI ON ECHANGEAIT ?
-Ces réalisations vous ont intéressés ? Vous rêvez d’en savoir plus sur l’agence et sur ce que l’on vous propose ? Vous souhaitez collaborer avec nous ? Nous serons heureux d’échanger avec vous !
+<h4>ET SI ON ECHANGEAIT ?</h4>
+<p>Ces réalisations vous ont intéressés ? Vous rêvez d’en savoir plus sur l’agence et sur ce que l’on vous propose ? Vous souhaitez collaborer avec nous ? Nous serons heureux d’échanger avec vous !</p>
 
               </span>
       </div>
