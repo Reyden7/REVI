@@ -35,7 +35,7 @@ In-Demand Professions, Mobile-Friendly Websites Automatically, Sample Headline, 
     <title>Accueil</title>
    </head>
 
-<nav class=" navbar navbar-expand navbar-light  fixed-top bg m-0 p-0 shadow " style="background-color:#F5A169 " id="navBar">
+<nav class=" shadow navbar navbar-expand navbar-light  fixed-top bg m-0 p-0 " style="background-color:#444444; opacity : 0.7; " id="navBar">
 <div class="container">
     
         <div class="col-2 text-center ">
@@ -46,7 +46,7 @@ In-Demand Professions, Mobile-Friendly Websites Automatically, Sample Headline, 
             </a>
         </div>
         <div class="col-2 text-center  ">
-            <a class=" navText navbar-brand nav-link active p-0" href="view_homepage.php"  style="color:white"><strong>L'agence</strong></a>
+            <a class=" navText navbar-brand nav-link active p-0" href="view_homepage.php"  style="color:white; font-family:  Belleview"><strong>L'agence</strong></a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -54,24 +54,24 @@ In-Demand Professions, Mobile-Friendly Websites Automatically, Sample Headline, 
             <div class="collapse navbar-collapse  " id="navbarSupportedContent" >
                 <div class="row ">
                     <ul class="navbar-nav  ">
-                    <div class="col-4 ">
+                    <div class="col-4">
                         <li class="nav-item text-center ">
-                            <a class="navText nav-link text " href="view_event.php" style="color:white" >évènements</a>
+                            <a class="navText nav-link text " href="view_event.php" style="color:white; font-family:  Belleview" >évènements</a>
                         </li>
                     </div>
                     <div class="col-4">
                         <li class="nav-item text-center ">
-                            <a class=" navText nav-link " href="view_office.php" style="color:white">Bureau</a>
+                            <a class=" navText nav-link " href="view_office.php" style="color:white; font-family:  Belleview">Bureau</a>
                         </li>
                     </div>
                     <div class="col-4">
                         <li class="nav-item text-center ">
-                            <a class=" navText nav-link" href="view_sponsor.php" style="color:white" >Nos partenaires</a>
+                            <a class=" navText nav-link " href="view_sponsor.php" style="color:white; font-family:  Belleview" >Nos partenaires</a>
                         </li>
                     </div>
                     <div class="col-4">
                         <li class="nav-item  text-center ">
-                            <a class=" navText nav-link" href="view_contact.php" style="color:white" >Nous contacter</a>
+                            <a class=" navText nav-link " href="view_contact.php" style="color:white; font-family:  Belleview" >Nous contacter</a>
                         </li>
                     </div>
                     <div class="slide"></div>

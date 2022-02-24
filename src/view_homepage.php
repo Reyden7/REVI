@@ -17,13 +17,13 @@
 <div class="container ">
   <div class="row-12">
     <div class="col">
-    <h1> <strong>La junior Agence</strong></h1>
-      <h4> <regular>Que se passe-t-il lorsque vous prenez XX étudiant.e.s du Master REVI de l’Université de Bourgogne à Dijon, des êtres curieux de nature, et que vous les mettez ensemble ? La réponse est un concentré de curiosité, d’énergie et de potentiel : La Junior Agence/Le REVI Network. 
+    <h1>  <strong> La junior Agence</strong></h1>
+    <h4 > <regular>Que se passe-t-il lorsque vous prenez XX étudiant.e.s du Master REVI de l’Université de Bourgogne à Dijon, des êtres curieux de nature, et que vous les mettez ensemble ? La réponse est un concentré de curiosité, d’énergie et de potentiel : La Junior Agence/Le REVI Network. 
 Encadré par des experts dans les domaines de recherche et de veille informationnelle, cette fine équipe étudiante réalise des projets géniaux et ambitieux. <br> 
-</h2></regular>
-    </div>
-    <div class="col-3"  >
-    </div >
+    </h2></regular>
+  </div>
+  <div class="col-3"  >
+  </div >
     <div class="col-3">
   </div>
 </div>
