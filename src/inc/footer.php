@@ -1,7 +1,7 @@
 <footer>
 
 
-    <div class="footer-basic mt-5">
+    <div class="footer-basic mt-5 "  >
         <footer>
             <div class="social"><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
             <ul class="list-inline">

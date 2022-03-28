@@ -35,24 +35,24 @@ In-Demand Professions, Mobile-Friendly Websites Automatically, Sample Headline, 
     <title>Accueil</title>
    </head>
 
-<nav class=" shadow navbar navbar-expand navbar-light  fixed-top bg m-0 p-0 " style="background-color:#444444; opacity : 0.7; " id="navBar">
+<nav class=" shadow navbar navbar-expand navbar-light  fixed-top bg m-0 p-0  " style="background-color:#444444; opacity : 0.7; " id="navBar">
 <div class="container">
     
-        <div class="col-2 text-center ">
+        <div class="col-2 text-center " style="margin-left:-10rem">
             <a class="navbar-brand ">
                 <div class="logo-image">
                     <img src="https://cdn.discordapp.com/attachments/539194211614851082/918901118174625862/LogoREVI2blanc.png" class="img-fluid">
                 </div>
             </a>
         </div>
-        <div class="col-2 text-center  ">
-            <a class=" navText navbar-brand nav-link active p-0" href="view_homepage.php"  style="color:white; font-family:  Belleview"><strong>L'agence</strong></a>
+        <div class="col-1 text-center  ">
+            <a class=" navText navbar-brand nav-link active p-0" href="view_homepage.php"  style="color:white; font-family:  Belleview; margin-left :-5rem;"><strong>L'agence</strong></a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
             <div class="collapse navbar-collapse  " id="navbarSupportedContent" >
-                <div class="row ">
+                <div class="row text-center">
                     <ul class="navbar-nav  ">
                     <div class="col-4">
                         <li class="nav-item text-center ">
@@ -67,6 +67,11 @@ In-Demand Professions, Mobile-Friendly Websites Automatically, Sample Headline, 
                     <div class="col-4">
                         <li class="nav-item text-center ">
                             <a class=" navText nav-link " href="view_sponsor.php" style="color:white; font-family:  Belleview" >Nos partenaires</a>
+                        </li>
+                    </div>
+                    <div class="col-4">
+                        <li class="nav-item text-center ">
+                            <a class=" navText nav-link " href="view_annuaire.php" style="color:white; font-family:  Belleview" >Annuaire des anciens</a>
                         </li>
                     </div>
                     <div class="col-4">
