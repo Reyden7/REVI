@@ -14,11 +14,61 @@
 
     </div>
 </div>
+<div class="container backgroundBande " >
+  <div class="row-full shadow ">
+      <span class="text-center "> 
+        
+          <div class="col-12 pt-4 ">
+          
+            <h1 class="fontbandeau"  style=" font-family: registra">Le master REVI</h1>
+            
+          </div>
+        </div>
+      </span>
+    </div>
+</div>
+<div class="container mt-4">
+  <div class="row-12">
+  <div class="card rounded text-left">
+  <div class="card-header border rounded-top ">
+  <img src="img/imgTest.jpg"  alt="profile-image" class=" img-fluid w-50" />
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Recherche</h5>
+    <p class="card-text" style="font-size:15px">Le parcours Recherche nécessite des étudiants ayant soif de curiosité, de recherche, d’approfondissement et d’interrogation. Les étudiants sont amenés à faire de la  traduction et relecture d’articles, mais apportent également un soutien logistique à des colloques. 
+Les étudiants apprennent les théories littéraires, l’analyse du discours et de nombreuses compétences linguistiques. La finalité de cette spécialité est de savoir rédiger des comptes-rendus et des synthèses, conduire une réflexion théorique sur la base de séminaires.  
+Ce parcours se destine aux étudiants voulant être spécialistes de civilisation / culture, métiers de l’enseignement et de la recherche. 
+Insérer titres de mémoire</p>
+
+  </div>
+</div>
+<h2> <regular> Veille <regular> </h2>
+    <h4 > <regular>Le parcours Recherche nécessite des étudiants ayant soif de curiosité, de recherche, d’approfondissement et d’interrogation. Les étudiants sont amenés à faire de la  traduction et relecture d’articles, mais apportent également un soutien logistique à des colloques. 
+Les étudiants apprennent les théories littéraires, l’analyse du discours et de nombreuses compétences linguistiques. La finalité de cette spécialité est de savoir rédiger des comptes-rendus et des synthèses, conduire une réflexion théorique sur la base de séminaires.  
+Ce parcours se destine aux étudiants voulant être spécialistes de civilisation / culture, métiers de l’enseignement et de la recherche. Insérer titres de mémoire <br>     </h2></regular> </h4>  </div>
+  <div class="col-3"  >
+  </div >
+    <div class="col-3">
+  </div>
+</div>
+
+<div class="container backgroundBande " >
+  <div class="row-full shadow ">
+      <span class="text-center "> 
+        
+          <div class="col-12 pt-4 ">
+          
+            <h1 class="fontbandeau" >La junior Agence</h1>
+            
+          </div>
+        </div>
+      
+      </span>
+    </div>
+</div>
 <div class="container ">
   <div class="row-12">
     <div class="col">
-    
-    <h1>  <strong> La junior Agence</strong></h1>
     <h4 > <regular>Que se passe-t-il lorsque vous prenez XX étudiant.e.s du Master REVI de l’Université de Bourgogne à Dijon, des êtres curieux de nature, et que vous les mettez ensemble ? La réponse est un concentré de curiosité, d’énergie et de potentiel : La Junior Agence/Le REVI Network. 
 Encadré par des experts dans les domaines de recherche et de veille informationnelle, cette fine équipe étudiante réalise des projets géniaux et ambitieux. <br> 
     </h2></regular>
@@ -52,102 +102,7 @@ Encadré par des experts dans les domaines de recherche et de veille information
                     <img src="img/tope.png"  alt="profile-image" class=" img-fluid w-50 h-50" style="z-index:1"/>
                 </div>
 
-<div class="container backgroundBande " >
-  <div class="row-full shadow ">
-      <span class="text-center "> 
-        
-          <div class="col-12 pt-4 ">
-          
-            <h1 class="fontbandeau" >Nos Compétences</h1>
-            
-          </div>
-        </div>
-      
-      </span>
-    </div>
-</div>
-<div class="container ">
-  <div class="row ">
-    <div class="col-1"></div>
-    <div class="col-10">
-      <div id="carouselExampleDark " class="carousel carousel-dark slide " data-bs-ride="carousel" >
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner carouselcontent">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="img/CommunicationNR.png" class="d-block w-100" >
-            <div class="carousel-caption d-none d-md-block">
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="10000">
-            <img src="img/RechercheNR.png" class="d-block  w-100">
-            <div class="carousel-caption d-none d-md-block">
-            
-            </div>
-          </div>
-          <div class="carousel-item " data-bs-interval="10000">
-            <img src="img/VeilleNR.png" class="d-block w-100 h-100">
-            <div class="carousel-caption d-none d-md-block">
-            
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-    <div class="col-1"></div>
-  </div>
-</div>
 
-<div class="container  mt-5">
-<div class="accordion " id="accordionPanelsStayOpenExample">
-  <div class="accordion-item backgroundText  ">
-    <h2 class="accordion-header " id="panelsStayOpen-headingOne">
-      <button class="accordion-button AcordionTitle-font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-        Communication
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show shadow" aria-labelledby="panelsStayOpen-headingOne">
-      <div class="accordion-body shadow">
-      Le cursus veille se basant sur l’analyse et la diffusion d’informations concernant notamment les réseaux sociaux, le community management est un des débouchés du Master REVI. La junior agence peut s’occuper de la communication de votre entreprise.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header shadow" id="panelsStayOpen-headingTwo">
-      <button class="accordion-button collapsed AcordionTitle-font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-        Veille
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse shadow" aria-labelledby="panelsStayOpen-headingTwo">
-      <div class="accordion-body shadow">
-      Recherche, analyse et diffusion de l’information. La junior agence se chargera du traitement de données et la surveillance de environnement de votre entreprise pour anticiper ses évolutions.       </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-      <button class="accordion-button collapsed AcordionTitle-font shadow" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-        Recherche
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse shadow" aria-labelledby="panelsStayOpen-headingThree">
-      <div class="accordion-body shadow">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-</div>
-</div>
 
 <div class="container backgroundBande " >
   <div class="row-full shadow ">

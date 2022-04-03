@@ -71,7 +71,7 @@ In-Demand Professions, Mobile-Friendly Websites Automatically, Sample Headline, 
                     </div>
                     <div class="col-4">
                         <li class="nav-item text-center ">
-                            <a class=" navText nav-link " href="view_annuaire.php" style="color:white; font-family:  Belleview" >Annuaire des anciens</a>
+                            <a class=" navText nav-link " href="view_annuaire.php" style="color:white; font-family:  Belleview" >The REVI network</a>
                         </li>
                     </div>
                     <div class="col-4">
