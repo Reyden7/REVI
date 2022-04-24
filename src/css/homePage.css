@@ -1,71 +1,36 @@
-body
-{
- margin:0;
-}
-
-
-h1{
-  font-family: "Dayrom";
-  font-size: 32px;
+/*Font*/
+@font-face {
+  src: url(/src/font/registra.ttf);
+  font-family: registra;
+  font-weight: normal;
+  font-style: normal;
   
 }
 
-h4{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+/*VIDEO*/
+.demoVideo {
+  position: fixed;
+  z-index: 20;
+  background-color: transparent;
+  min-width: 75%;
+  min-height: 75%;
+  margin-left: 10%;
+  top: 10%;
+  border: 1px rgb(0, 0, 0) solid;
+  }
+/*END*/
 
 .fontbandeau{
   color:#202020;
 }
 
+/* end font */
 
-.bg0 {
-  animation:slide 20s ease-in-out infinite alternate;
-  background-image: linear-gradient(-50deg, #ffffff 60%, #2e2e2e 25%, #808080 25%, #c9c9c9 25%);
-  bottom:0;
-  left:-50%;
-  opacity:0.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
-}
-
-
-.bg1 {
-  animation:slide 20s ease-in-out infinite alternate;
-  background-image: linear-gradient(50deg, #FFFFFF 60%, #2e2e2e 25%, #808080 25%, #c9c9c9 25%);
-  bottom:0;
-  left:-50%;
-  opacity:0.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
-}
-
-.bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:16s;
-}
-
-.bg3 {
-  animation-duration:18s;
-}
-
-.bg4 {
-  animation-direction:alternate-reverse;
-  animation-duration:16s;
-}
-
-.bg5 {
-  animation-duration:18s;
-}
 
 .content {
   background-color:rgba(255, 0, 0, 0.8);
   border-radius:.25em;
-  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-shadow:0 0 .25em rgba(255, 0, 0, 0.25);
   box-sizing:border-box;
   left:50%;
   padding:10vmin;

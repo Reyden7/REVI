@@ -1,11 +1,5 @@
 <?php include "inc/header.php"; ?>
-<div class="bg0"></div>
-<div class="bg0 bg2"></div>
-<div class="bg0 bg3"></div>
 
-<div class="bg1"></div>
-<div class="bg1 bg4"></div>
-<div class="bg1 bg5"></div>
 <div class="container">
     <div class="row mt-5">
         <div class="col-12 mt-5 ">

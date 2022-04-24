@@ -1,4 +1,5 @@
 
+
 .fixed-top, .sb-nav-fixed{
     position:fixed;
     top:0;
@@ -7,3 +8,28 @@
     
 }
 
+.bg0 {
+    animation:slide 20s  ease-in infinite alternate;
+    background-image: linear-gradient(-75deg, #d8d8d8 60%, #636363 25%, #8f8f8f 25%, #666666 25%);
+    bottom:0;
+    left:-50%;
+    opacity:0.6;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+    
+  }
+  
+  
+  .bg2 {
+    animation-duration:25s;
+    
+  }
+  
+  .bg3 {
+    animation-duration:28s;
+    
+    
+  }
+  
