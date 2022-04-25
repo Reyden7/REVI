@@ -1,3 +1,7 @@
+body{
+  background-color: rgb(255, 255, 255);
+}
+
 /*Font*/
 @font-face {
   src: url(/src/font/registra.ttf);
@@ -8,16 +12,83 @@
 }
 
 /*VIDEO*/
-.demoVideo {
-  position: fixed;
-  z-index: 20;
-  background-color: transparent;
-  min-width: 75%;
-  min-height: 75%;
-  margin-left: 10%;
-  top: 10%;
-  border: 1px rgb(0, 0, 0) solid;
-  }
+*{
+margin: 0;
+
+}
+.bloc {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  overflow: hidden;
+  
+  
+}
+
+.bloc video{
+  
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+  
+}
+
+.bloc:before{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  background-color: #00000000;
+  transform: translate(-50%, -50%);
+  z-index: -99;
+
+}
+
+.bloc2 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+  
+  
+}
+
+.bloc2 video{
+  
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+  
+}
+
+.bloc2:before{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #00000073;
+  z-index: -99;
+
+}
+
+
 /*END*/
 
 .fontbandeau{
@@ -27,29 +98,7 @@
 /* end font */
 
 
-.content {
-  background-color:rgba(255, 0, 0, 0.8);
-  border-radius:.25em;
-  box-shadow:0 0 .25em rgba(255, 0, 0, 0.25);
-  box-sizing:border-box;
-  left:50%;
-  padding:10vmin;
-  position:fixed;
-  text-align:center;
-  top:50%;
-  transform:translate(-50%, -50%);
-}
 
-
-
-@keyframes slide {
-  0% {
-    transform:translateX(-15%);
-  }
-  100% {
-    transform:translateX(15%);
-  }
-}
 
 
 /*==================================
@@ -164,7 +213,7 @@ Ils nous ont fait confiance slider
 .backgroundBande{
   
 
-  margin-top: 50px;
+  
   width: 2000px;
   
 }
@@ -196,3 +245,101 @@ Ils nous ont fait confiance slider
   background-color: #00000000;
   
 }
+
+
+/*Nos compétences */
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: "img/ond.png";
+}
+*:hover{
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+section{
+    float:left;
+    width:100%;
+      /* fallback for old browsers */
+    padding:30px 0;
+}
+
+/*Profile Card 1*/
+.profile-card-a {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  height:368px;
+  border:none;
+}
+.profile-card-a .background {
+  width:100%;
+  vertical-align: top;
+  opacity: 0.9;
+  -webkit-filter: blur(5px);
+  filter: blur(3px);
+  -webkit-transform: scale(1.8);
+  transform: scale(1.2);
+}
+.profile-card-a .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.profile-card-a .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  max-width: 100px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+.profile-card-a h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size:25px;
+}
+.profile-card-a h2 small {
+  display: block;
+  font-size: 15px;
+  margin-top:10px;
+}
+.profile-card-a i {
+  display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin:0 5px;
+}
+.profile-card-a .icon-block{
+    float:left;
+    width:100%;
+    margin-top:15px;
+}
+.profile-card-a .icon-block a{
+    text-decoration:none;
+}
+.profile-card-a i:hover {
+  background-color:#fff;
+  color:#2E3434;
+  text-decoration:none;
+}
+
+
