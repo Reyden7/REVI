@@ -2,12 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
 body{
-    font-family: 'Open Sans', sans-serif;
-    background-image: "img/ond.png";
-}
-*:hover{
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
+  background-color: rgb(255, 255, 255);
 }
 section{
     float:left;

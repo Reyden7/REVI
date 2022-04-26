@@ -1,4 +1,29 @@
 <?php include "inc/header.php"; ?>
+<!--
+Désolé si ce site est moche, le developpeur aussi aurait aimer avoir une maquette à temps
+            ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠛⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⠛⠛⠛⠿⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⡀⠠⠤⠒⢂⣉⣉⣉⣑⣒⣒⠒⠒⠒⠒⠒⠒⠒⠀⠀⠐⠒⠚⠻⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⡠⠔⠉⣀⠔⠒⠉⣀⣀⠀⠀⠀⣀⡀⠈⠉⠑⠒⠒⠒⠒⠒⠈⠉⠉⠉⠁⠂⠀⠈⠙⢿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠔⠁⠠⠖⠡⠔⠊⠀⠀⠀⠀⠀⠀⠀⠐⡄⠀⠀⠀⠀⠀⠀⡄⠀⠀⠀⠀⠉⠲⢄⠀⠀⠀⠈⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⠋⠀⠀⠀⠀⠀⠀⠀⠊⠀⢀⣀⣤⣤⣤⣤⣀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠜⠀⠀⠀⠀⣀⡀⠀⠈⠃⠀⠀⠀⠸⣿⣿⣿⣿
+⣿⣿⣿⣿⡿⠥⠐⠂⠀⠀⠀⠀⡄⠀⠰⢺⣿⣿⣿⣿⣿⣟⠀⠈⠐⢤⠀⠀⠀⠀⠀⠀⢀⣠⣶⣾⣯⠀⠀⠉⠂⠀⠠⠤⢄⣀⠙⢿⣿⣿
+⣿⡿⠋⠡⠐⠈⣉⠭⠤⠤⢄⡀⠈⠀⠈⠁⠉⠁⡠⠀⠀⠀⠉⠐⠠⠔⠀⠀⠀⠀⠀⠲⣿⠿⠛⠛⠓⠒⠂⠀⠀⠀⠀⠀⠀⠠⡉⢢⠙⣿
+⣿⠀⢀⠁⠀⠊⠀⠀⠀⠀⠀⠈⠁⠒⠂⠀⠒⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⢀⣀⡠⠔⠒⠒⠂⠀⠈⠀⡇⣿
+⣿⠀⢸⠀⠀⠀⢀⣀⡠⠋⠓⠤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⠀⠈⠢⠤⡀⠀⠀⠀⠀⠀⠀⢠⠀⠀⠀⡠⠀⡇⣿
+⣿⡀⠘⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠈⠑⡦⢄⣀⠀⠀⠐⠒⠁⢸⠀⠀⠠⠒⠄⠀⠀⠀⠀⠀⢀⠇⠀⣀⡀⠀⠀⢀⢾⡆⠀⠈⡀⠎⣸⣿
+⣿⣿⣄⡈⠢⠀⠀⠀⠀⠘⣶⣄⡀⠀⠀⡇⠀⠀⠈⠉⠒⠢⡤⣀⡀⠀⠀⠀⠀⠀⠐⠦⠤⠒⠁⠀⠀⠀⠀⣀⢴⠁⠀⢷⠀⠀⠀⢰⣿⣿
+⣿⣿⣿⣿⣇⠂⠀⠀⠀⠀⠈⢂⠀⠈⠹⡧⣀⠀⠀⠀⠀⠀⡇⠀⠀⠉⠉⠉⢱⠒⠒⠒⠒⢖⠒⠒⠂⠙⠏⠀⠘⡀⠀⢸⠀⠀⠀⣿⣿⣿
+⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠑⠄⠰⠀⠀⠁⠐⠲⣤⣴⣄⡀⠀⠀⠀⠀⢸⠀⠀⠀⠀⢸⠀⠀⠀⠀⢠⠀⣠⣷⣶⣿⠀⠀⢰⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠁⢀⠀⠀⠀⠀⠀⡙⠋⠙⠓⠲⢤⣤⣷⣤⣤⣤⣤⣾⣦⣤⣤⣶⣿⣿⣿⣿⡟⢹⠀⠀⢸⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠑⠀⢄⠀⡰⠁⠀⠀⠀⠀⠀⠈⠉⠁⠈⠉⠻⠋⠉⠛⢛⠉⠉⢹⠁⢀⢇⠎⠀⠀⢸⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣀⠈⠢⢄⡉⠂⠄⡀⠀⠈⠒⠢⠄⠀⢀⣀⣀⣰⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⢀⣎⠀⠼⠊⠀⠀⠀⠘⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⡀⠉⠢⢄⡈⠑⠢⢄⡀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁⠀⠀⢀⠀⠀⠀⠀⠀⢻⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣀⡈⠑⠢⢄⡀⠈⠑⠒⠤⠄⣀⣀⠀⠉⠉⠉⠉⠀⠀⠀⣀⡀⠤⠂⠁⠀⢀⠆⠀⠀⢸⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣄⡀⠁⠉⠒⠂⠤⠤⣀⣀⣉⡉⠉⠉⠉⠉⢀⣀⣀⡠⠤⠒⠈⠀⠀⠀⠀⣸⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣶⣶⣤⣤⣤⣤⣀⣀⣤⣤⣤⣶⣾⣿⣿⣿⣿⣿
+
+-->
 <link rel="stylesheet" href="css/homePage.css">
 
 <div class="container">
@@ -59,27 +84,106 @@
     </div>
 </div>
 
-<div class="container card-body m-0 mt-5">
+<!-- Recherche -->
+
+<div class="container-fluid mt-5 ">
   <div class="row">
-  <div class="col-6 ml-5">
-        <h1 class="card-title" style="text-align: center;"> Recherche </h1>
-        <h4 class="card-content" style="text-align: justify;">Le parcours Recherche nécessite des étudiants ayant soif de curiosité, de recherche, d’approfondissement et d’interrogation. 
-        Les étudiants sont amenés à faire de la  traduction et relecture d’articles, mais apportent également un soutien logistique à des colloques. 
-</h4>
-<h4 class="card-content" style="text-align: justify;">
-Les étudiants apprennent les théories littéraires, l’analyse du discours et de nombreuses compétences linguistiques. La finalité de cette spécialité est de savoir rédiger des comptes-rendus et des synthèses, conduire une réflexion théorique sur la base de séminaires.
-Ce parcours se destine aux étudiants voulant être spécialistes de civilisation / culture, métiers de l’enseignement et de la recherche. 
-</h4>
-    </div> 
-    <div class="col-5">
-    <video style="width: 100%; height: 100%; margin: left 1600px;" src="recherche.mp4" autoplay loop muted></video>
+    <div class="col-4">
+    <h1 class="card-title text-center align-content-center" style="text-align: center; margin-left:20%"> Recherche </h1>
+            <br>
+            <h4 class="card-content" style="text-align: justify; margin-left:20%">Le parcours Recherche nécessite des étudiants ayant soif de curiosité, de recherche, d’approfondissement et d’interrogation. 
+            Les étudiants sont amenés à faire de la  traduction et relecture d’articles, mais apportent également un soutien logistique à des colloques. 
+            </h4> <br>
+            <h4 class="card-content" style="text-align: justify;  margin-left:20%">
+            Les étudiants apprennent les théories littéraires, l’analyse du discours et de nombreuses compétences linguistiques. La finalité de cette spécialité est de savoir rédiger des comptes-rendus et des synthèses, conduire une réflexion théorique sur la base de séminaires.
+            Ce parcours se destine aux étudiants voulant être spécialistes de civilisation / culture, métiers de l’enseignement et de la recherche. 
+            </h4>
+    </div>
+    <div class="col-7" style="margin-left:7%">
+    <video style="height: 100%;" src="recherche.mp4" autoplay loop muted></video>
+   
+    </div>
+
+
+  </div>
+</div>
+
+<!--Fin de recherche -->
+
+<!-- Veille -->
+
+<div class="container-fluid mt-5 " style="margin-bottom: 10rem;">
+  <div class="row">
+    <div class="col-7">
+        <video style="height: 115%;margin-left: -2%" src="veille2.mp4" autoplay loop muted></video>
+    </div>
+    <div class="col-4">
+    <h1 class="card-title text-center align-content-center" style="text-align: justify;  "> Veille </h1>
+            <br>
+            <h4 class="card-content" style="text-align: justify;">Le parcours Veille Internationale permet aux étudiants de conduire une recherche approfondie, effectuer une veille informationnelle, y compris dans une langue étrangère, rédiger des synthèses, écrites ou orales. 
+            </h4> <br>
+            <h4 class="card-content"style="text-align: justify;  ">
+            Ils sauront transposer des connaissances pour divers publics d’apprenants, assurer la conduite et le soutien de projets de recherche, aider au pilotage des entreprises et institutions et rassembler des données pour les mettre au service de décideurs ou de commanditaires professionnels.
+Cette spécialité permettra aux étudiants de devenir chargé de veille et d’études, community manager, data analyst et d’autres métiers plus intéressants les uns que les autres.
+            </h4>
+    </div>
+
+
+  </div>
+</div>
+
+<!--Fin de veille -->
+
+
+<div class="container backgroundBande mt-3 "  >
+  <div class="row-full shadow mt-0">
+      <span class="text-center "> 
+        
+          <div class="col-12 pt-4 ">
+          
+            <h1 class="fontbandeau" >La junior Agence</h1>
+            
+          </div>
+        </div>
+      
+      </span>
+    </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <h2 class="mt-5">Que se passe-t-il lorsque vous prenez 20 étudiant.e.s du Master REVI de l’Université de Bourgogne à Dijon, des êtres curieux de nature, et que vous les mettez ensemble ? La réponse est un concentré de curiosité, d’énergie et de potentiel : La Junior Agence/Le REVI Network. Encadré par des experts dans les domaines de recherche et de veille informationnelle, cette fine équipe étudiante réalise des projets géniaux et ambitieux.     </h2> 
+  </div>
+</div>
+
+<div class="container backgroundBande mt-3 "  >
+  <div class="row-full shadow mt-0">
+      <span class="text-center "> 
+        
+          <div class="col-12 pt-4 ">
+          
+            <h1 class="fontbandeau" >Ils nous ont fait confiance</h1>
+            
+          </div>
+        </div>
+      
+      </span>
+    </div>
+</div>
+
+<div class="container mt-5 ">
+  <div class=" row">
+    <div class="marquee">
+      <ul class="marquee-content">
+        <li><img src="img/OA.png" class="w-50"  aria-hidden="true"></i></li>
+        <li><img src="img/wd.png" class="w-50"  aria-hidden="true"></i></li>
+        <li><img src="img/idaos.png" class="w-50"  aria-hidden="true"></i></li>
+      </ul>
     </div>
   </div>
-   
 </div>
 
-</div>
-
+<!--
 <section>
     <div class="container mt-5" >
     	<div class="row mt-5"  >
@@ -121,7 +225,7 @@ Ce parcours se destine aux étudiants voulant être spécialistes de civilisatio
         </div>
     </div>
 </div>
-
+-->
 
 <?php include "inc/footer.php"; ?>
 
