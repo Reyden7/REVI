@@ -1,0 +1,41 @@
+/*VIDEO*/
+*{
+    margin: 0;
+    
+    }
+    .blocEvent {
+      position: absolute;
+      height: 100vh;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -60%);
+      overflow: hidden;
+      
+      
+    }
+    
+    .blocEvent video{
+      
+      position: absolute;
+      min-width: 100%;
+      min-height: 100%;
+      top: 50%;
+      left: 50%;
+      z-index: -100;
+      transform: translate(-50%, -50%);
+      
+    }
+    
+    .blocEvent:before{
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      background-color: #00000065;
+      transform: translate(-50%, -50%);
+      z-index: -99;
+    
+    }

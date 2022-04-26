@@ -39,7 +39,7 @@ Désolé si ce site est moche, le developpeur aussi aurait aimer avoir une maque
   <video src="video1.mp4" autoplay loop muted></video>
   
   </div>
-
+<!-- fin -->
 
 <div class="container backgroundBande "  style="margin-top: -80px;">
   <div class="row-full shadow mt-0">
@@ -75,7 +75,7 @@ Désolé si ce site est moche, le developpeur aussi aurait aimer avoir une maque
         
           <div class="col-12 pt-4 ">
           
-            <h1 class="fontbandeau" >Nos compétences</h1>
+            <h1 class="fontbandeau" >Nos parcours</h1>
             
           </div>
         </div>

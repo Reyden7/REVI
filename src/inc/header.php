@@ -27,6 +27,7 @@ In-Demand Professions, Mobile-Friendly Websites Automatically, Sample Headline, 
     <link rel="stylesheet" href="css/office.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/homePage.css">
+    <link rel="stylesheet" href="css/event.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
