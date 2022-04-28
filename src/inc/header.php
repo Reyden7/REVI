@@ -28,6 +28,7 @@ In-Demand Professions, Mobile-Friendly Websites Automatically, Sample Headline, 
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/homePage.css">
     <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -35,66 +36,53 @@ In-Demand Professions, Mobile-Friendly Websites Automatically, Sample Headline, 
 </head>
 
 
-<div class="bg0"></div>
-<div class="bg0 bg2"></div>
-
-
-<nav class=" shadow navbar navbar-expand navbar-light  fixed-top bg m-0 p-0  " style="background-color:#444444; opacity : 0.7; " id="navBar">
-<div class="container">
-    
-        <div class="col-2 text-center " style="margin-left:-10rem">
-            <a class="navbar-brand ">
-                <div class="logo-image">
-                    <img src="https://cdn.discordapp.com/attachments/539194211614851082/918901118174625862/LogoREVI2blanc.png" class="img-fluid">
+<nav class=" shadow fixed-top bg  " style="background-color:#444444; opacity : 0.7; " >
+<div class="container-fluid ">
+    <div class="row align-content-center pt-2 pb-1 mt-2">
+        <div class="col-2">
+           <div class="row">
+               <div class="col-7">
+               <div>  
+                    <a  href="view_homepage.php"  style="color:white; font-family:  newyork;  font-size:3rem"><strong>L'AGENCE</strong></a>
                 </div>
-            </a>
+               </div>
+               <div class="col-4">
+                    <div class="logo-image" style="width:100%; margin-left:70%">
+                        <img src="https://cdn.discordapp.com/attachments/948510159582429254/969324735320162334/LogoREVIBlancepais.png" class="img-fluid">
+                    </div>
+               </div>
+           </div>
+               
         </div>
-        <div class="col-1 text-center  ">
-            <a class=" navText navbar-brand nav-link active p-0" href="view_homepage.php"  style="color:white; font-family:  Belleview; margin-left :-5rem;"><strong>L'agence</strong></a>
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse  " id="navbarSupportedContent" >
-                <div class="row text-center">
-                    <ul class="navbar-nav  ">
-                    <div class="col-4">
-                        <li class="nav-item text-center ">
-                            <a class="navText nav-link text " href="view_event.php" style="color:white; font-family:  Belleview" >évènements</a>
-                        </li>
+        <div class="col-10 ">
+        <div class="row text-center " >
+                    <div class="col-2 pt-2" style="border-right: solid; border-color:white">
+                        <a  href="view_event.php" style="color:white; font-size:1.5rem; " >Evènements</a>
                     </div>
-                    <div class="col-4">
-                        <li class="nav-item text-center ">
-                            <a class=" navText nav-link " href="view_office.php" style="color:white; font-family:  Belleview">Bureau</a>
-                        </li>
+                    <div class="col-2 pt-2" style="border-right: solid;border-color:white">
+                        <a  href="view_office.php" style="color:white; font-size:1.5rem">Bureau</a>
                     </div>
-                    <div class="col-4">
-                        <li class="nav-item text-center ">
-                            <a class=" navText nav-link " href="view_sponsor.php" style="color:white; font-family:  Belleview" >Nos partenaires</a>
-                        </li>
+                    <div class="col-2 pt-2" style="border-right: solid;border-color:white"> 
+                        <a  href="view_sponsor.php" style="color:white; font-size:1.5rem" >Nos partenaires</a>
                     </div>
-                    <div class="col-4">
-                        <li class="nav-item text-center ">
-                            <a class=" navText nav-link " href="view_annuaire.php" style="color:white; font-family:  Belleview" >The REVI network</a>
-                        </li>
+                    <div class="col-2 pt-2" style="border-right: solid;border-color:white">
+                        <a  href="view_annuaire.php" style="color:white; font-size:1.5rem" >The REVI network</a>
                     </div>
-                    <div class="col-4">
-                        <li class="nav-item  text-center ">
-                            <a class=" navText nav-link " href="view_contact.php" style="color:white; font-family:  Belleview" >Nous contacter</a>
-                        </li>
+                    <div class="col-2 pt-2" >
+                        <a href="view_contact.php" style="color:white; font-size:1.5rem" >Nous contacter</a>
                     </div>
-                    <div class="slide"></div>
-                    </ul>
+                    <div class="col-2 pt-2" >
+                    <div class="logo-image" style="width:25%; margin-left:10%">
+                        <img src="https://cdn.discordapp.com/attachments/948510159582429254/969344236782755850/ub.png" class="img-fluid">
+                    </div>
+                    </div>
                 </div>
             </div>
-    
-      <!--<li class="nav-item">
-        <a class="nav-link disabled">Disabled</a>
-      </li> -->
-    <!--<form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>-->
+        </div>
+                   
+    </div>
+
+       
   </div>
   <div>
 </div>

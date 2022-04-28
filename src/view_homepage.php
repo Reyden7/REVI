@@ -41,24 +41,28 @@ Désolé si ce site est moche, le developpeur aussi aurait aimer avoir une maque
   </div>
 <!-- fin -->
 
-<div class="container backgroundBande "  style="margin-top: -80px;">
-  <div class="row-full shadow mt-0">
+<div class="container-fluid backgroundBande  "  style="margin-top: -80px; margin-left:-2%">
+  <div class="row-full shadow  ">
       <span class="text-center "> 
-        
-          <div class="col-12 pt-4 ">
-          
-            <h1 class="fontbandeau" >Le master REVI</h1>
-            
+        <div class="row ">
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
+          <div class="col-4 pt-4 ">
+            <h1 class="fontbandeau" >Le Master REVI</h1>
+          </div>
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
           </div>
         </div>
-      
+        </div>
       </span>
     </div>
 </div>
 
 <div class="container">
-  <div class="row">
-  <h2 class="mt-5">Ce master comprend deux parcours, un parcours Ingénierie de la Recherche et un parcours Veille Internationale. Il s’adresse à des étudiants diplômés en langue étrangère (allemand, anglais, espagnol, niveau licence LLCER ou équivalent. Le niveau requis en français: C2. Débouchés: – chargé de veille, analyste en e-réputation, analyste de données d’opinion – enseignant, enseignant-chercheur, travail dans l’administration de la recherche.
+  <div class="row" >
+  <h2 class="mt-5" style="text-align: justify;">Ce master comprend deux parcours, un parcours Ingénierie de la Recherche et un parcours Veille Internationale. Il s’adresse à des étudiants diplômés en langue étrangère (allemand, anglais, espagnol, niveau licence LLCER ou équivalent. Le niveau requis en français: C2. Débouchés: – chargé de veille, analyste en e-réputation, analyste de données d’opinion – enseignant, enseignant-chercheur, travail dans l’administration de la recherche.
  </h2> </div>
 
 </div>
@@ -69,17 +73,21 @@ Désolé si ce site est moche, le developpeur aussi aurait aimer avoir une maque
  
 </div>
 
-<div class="container backgroundBande mt-3 "  >
-  <div class="row-full shadow mt-0">
+<div class="container-fluid backgroundBande  "  style="margin-top: -80px; margin-left:-2%">
+  <div class="row-full shadow  ">
       <span class="text-center "> 
-        
-          <div class="col-12 pt-4 ">
-          
-            <h1 class="fontbandeau" >Nos parcours</h1>
-            
+        <div class="row ">
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
+          <div class="col-4 pt-4 ">
+            <h1 class="fontbandeau" >Nos Parcours</h1>
+          </div>
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
           </div>
         </div>
-      
+        </div>
       </span>
     </div>
 </div>
@@ -117,10 +125,10 @@ Désolé si ce site est moche, le developpeur aussi aurait aimer avoir une maque
     <div class="col-7">
         <video style="height: 115%;margin-left: -2%" src="veille2.mp4" autoplay loop muted></video>
     </div>
-    <div class="col-4">
+    <div class="col-4" style="margin-left:4%">
     <h1 class="card-title text-center align-content-center" style="text-align: justify;  "> Veille </h1>
             <br>
-            <h4 class="card-content" style="text-align: justify;">Le parcours Veille Internationale permet aux étudiants de conduire une recherche approfondie, effectuer une veille informationnelle, y compris dans une langue étrangère, rédiger des synthèses, écrites ou orales. 
+            <h4 class="card-content" style="text-align: justify; ">Le parcours Veille Internationale permet aux étudiants de conduire une recherche approfondie, effectuer une veille informationnelle, y compris dans une langue étrangère, rédiger des synthèses, écrites ou orales. 
             </h4> <br>
             <h4 class="card-content"style="text-align: justify;  ">
             Ils sauront transposer des connaissances pour divers publics d’apprenants, assurer la conduite et le soutien de projets de recherche, aider au pilotage des entreprises et institutions et rassembler des données pour les mettre au service de décideurs ou de commanditaires professionnels.
@@ -135,38 +143,46 @@ Cette spécialité permettra aux étudiants de devenir chargé de veille et d’
 <!--Fin de veille -->
 
 
-<div class="container backgroundBande mt-3 "  >
-  <div class="row-full shadow mt-0">
+<div class="container-fluid backgroundBande  "  style="margin-top: -80px; margin-left:-2%">
+  <div class="row-full shadow  ">
       <span class="text-center "> 
-        
-          <div class="col-12 pt-4 ">
-          
-            <h1 class="fontbandeau" >La junior Agence</h1>
-            
+        <div class="row ">
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
+          <div class="col-4 pt-4 ">
+            <h1 class="fontbandeau" >La Junior Agence</h1>
+          </div>
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
           </div>
         </div>
-      
+        </div>
       </span>
     </div>
 </div>
 
 <div class="container">
   <div class="row">
-    <h2 class="mt-5">Que se passe-t-il lorsque vous prenez 20 étudiant.e.s du Master REVI de l’Université de Bourgogne à Dijon, des êtres curieux de nature, et que vous les mettez ensemble ? La réponse est un concentré de curiosité, d’énergie et de potentiel : La Junior Agence/Le REVI Network. Encadré par des experts dans les domaines de recherche et de veille informationnelle, cette fine équipe étudiante réalise des projets géniaux et ambitieux.     </h2> 
+    <h2 class="mt-5" style="text-align: justify;">Que se passe-t-il lorsque vous prenez 20 étudiant.e.s du Master REVI de l’Université de Bourgogne à Dijon, des êtres curieux de nature, et que vous les mettez ensemble ? La réponse est un concentré de curiosité, d’énergie et de potentiel : La Junior Agence/Le REVI Network. Encadré par des experts dans les domaines de recherche et de veille informationnelle, cette fine équipe étudiante réalise des projets géniaux et ambitieux.     </h2> 
   </div>
 </div>
 
-<div class="container backgroundBande mt-3 "  >
-  <div class="row-full shadow mt-0">
+<div class="container-fluid backgroundBande  "  style="margin-top: -80px; margin-left:-2%">
+  <div class="row-full shadow  ">
       <span class="text-center "> 
-        
-          <div class="col-12 pt-4 ">
-          
+        <div class="row ">
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
+          <div class="col-4 pt-4 ">
             <h1 class="fontbandeau" >Ils nous ont fait confiance</h1>
-            
+          </div>
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
           </div>
         </div>
-      
+        </div>
       </span>
     </div>
 </div>

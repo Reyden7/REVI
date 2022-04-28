@@ -1,3 +1,20 @@
+/*Font*/
+@font-face {
+  font-family: "registra";
+  src: url(../font/registra.ttf);
+
+}
+
+@font-face {
+  font-family: "newyork";
+  src: url(../font/newyork.otf);
+
+}
+
+
+
+
+
 /*VIDEO*/
 *{
     margin: 0;

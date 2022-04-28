@@ -4,11 +4,21 @@ body{
 
 /*Font*/
 @font-face {
-  src: url(/src/font/registra.ttf);
-  font-family: registra;
-  font-weight: normal;
-  font-style: normal;
-  
+  font-family: "registra";
+  src: url(../font/registra.ttf);
+
+}
+
+@font-face {
+  font-family: "newyork";
+  src: url(../font/newyork.otf);
+
+}
+
+h1{
+  font-family: newyork;
+  font-weight: bold;
+  font-size:  3rem;;
 }
 
 /*VIDEO*/
@@ -93,6 +103,7 @@ margin: 0;
 
 .fontbandeau{
   color:#202020;
+  font-family: newyork;
 }
 
 /* end font */

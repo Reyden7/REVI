@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "registra";
+    src: url("../font/registra.ttf") format("ttf"),
+         
+   }
+
+   @font-face {
+    font-family: "newyork";
+    src: url("../font/newyork.otf") format("otf"),
+         
+   }

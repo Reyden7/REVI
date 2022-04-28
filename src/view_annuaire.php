@@ -9,32 +9,42 @@ $reponse = mysqli_query($bdd, "SELECT NOM, PRENOM, PROMOTION, ADD_MAIL, NUM_TEL,
 
 ?>
 
-<div class="container">
-    <div class="row mt-5">
-        <div class="col-12 mt-5 ">
+<div class="container mt-5">
+    <div class="row ">
+        <div class="col-12 ">
         </div> 
 
     </div>
 </div>
-<div class="container">
+<div class="container ">
 <div class="row">
         <div class ="col-4"></div>
         <div class="col-4"></div>
         <div class ="col-4"></div>
     </div>
 </div>
-<div class="container backgroundBande " >
-  <div class="row-full shadow ">
+<div class="container backgroundBande mt-2" >
+<div class="container-fluid backgroundBande  mt-2"  style="margin-top: -80px; margin-left:-2%">
+  <div class="row-full shadow  ">
       <span class="text-center "> 
-        
-          <div class="col-12 pt-4 ">
-          
-            <h1 class="fontbandeau mb-5" >Que sont-ils devenus ?</h1>
+        <div class="row ">
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
+          <div class="col-4 pt-4 ">
+            <h1 class="fontbandeau" >Le Master REVI</h1>
+          </div>
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
+        </div>
+        </div>
       </span>
     </div>
+</div>
     
 
-        <table class=" table table-light table-responsive table-hover table-bordered table-sm mt-5 table-striped ">
+        <table class=" table table-light table-responsive table-hover table-bordered table-sm  table-striped ">
               <thead class="thead-dark">
                 <tr style="font-size:16px;text-align: center; padding-top:5px ">
                   <th scope="col">Nom</th>
