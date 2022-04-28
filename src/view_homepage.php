@@ -1,293 +1,247 @@
 <?php include "inc/header.php"; ?>
-<div class="bg0"></div>
-<div class="bg0 bg2"></div>
-<div class="bg0 bg3"></div>
+<!--
+Désolé si ce site est moche, le developpeur aussi aurait aimer avoir une maquette à temps
+            ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠛⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⠛⠛⠛⠿⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⡀⠠⠤⠒⢂⣉⣉⣉⣑⣒⣒⠒⠒⠒⠒⠒⠒⠒⠀⠀⠐⠒⠚⠻⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⡠⠔⠉⣀⠔⠒⠉⣀⣀⠀⠀⠀⣀⡀⠈⠉⠑⠒⠒⠒⠒⠒⠈⠉⠉⠉⠁⠂⠀⠈⠙⢿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠔⠁⠠⠖⠡⠔⠊⠀⠀⠀⠀⠀⠀⠀⠐⡄⠀⠀⠀⠀⠀⠀⡄⠀⠀⠀⠀⠉⠲⢄⠀⠀⠀⠈⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⠋⠀⠀⠀⠀⠀⠀⠀⠊⠀⢀⣀⣤⣤⣤⣤⣀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠜⠀⠀⠀⠀⣀⡀⠀⠈⠃⠀⠀⠀⠸⣿⣿⣿⣿
+⣿⣿⣿⣿⡿⠥⠐⠂⠀⠀⠀⠀⡄⠀⠰⢺⣿⣿⣿⣿⣿⣟⠀⠈⠐⢤⠀⠀⠀⠀⠀⠀⢀⣠⣶⣾⣯⠀⠀⠉⠂⠀⠠⠤⢄⣀⠙⢿⣿⣿
+⣿⡿⠋⠡⠐⠈⣉⠭⠤⠤⢄⡀⠈⠀⠈⠁⠉⠁⡠⠀⠀⠀⠉⠐⠠⠔⠀⠀⠀⠀⠀⠲⣿⠿⠛⠛⠓⠒⠂⠀⠀⠀⠀⠀⠀⠠⡉⢢⠙⣿
+⣿⠀⢀⠁⠀⠊⠀⠀⠀⠀⠀⠈⠁⠒⠂⠀⠒⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⢀⣀⡠⠔⠒⠒⠂⠀⠈⠀⡇⣿
+⣿⠀⢸⠀⠀⠀⢀⣀⡠⠋⠓⠤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⠀⠈⠢⠤⡀⠀⠀⠀⠀⠀⠀⢠⠀⠀⠀⡠⠀⡇⣿
+⣿⡀⠘⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠈⠑⡦⢄⣀⠀⠀⠐⠒⠁⢸⠀⠀⠠⠒⠄⠀⠀⠀⠀⠀⢀⠇⠀⣀⡀⠀⠀⢀⢾⡆⠀⠈⡀⠎⣸⣿
+⣿⣿⣄⡈⠢⠀⠀⠀⠀⠘⣶⣄⡀⠀⠀⡇⠀⠀⠈⠉⠒⠢⡤⣀⡀⠀⠀⠀⠀⠀⠐⠦⠤⠒⠁⠀⠀⠀⠀⣀⢴⠁⠀⢷⠀⠀⠀⢰⣿⣿
+⣿⣿⣿⣿⣇⠂⠀⠀⠀⠀⠈⢂⠀⠈⠹⡧⣀⠀⠀⠀⠀⠀⡇⠀⠀⠉⠉⠉⢱⠒⠒⠒⠒⢖⠒⠒⠂⠙⠏⠀⠘⡀⠀⢸⠀⠀⠀⣿⣿⣿
+⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠑⠄⠰⠀⠀⠁⠐⠲⣤⣴⣄⡀⠀⠀⠀⠀⢸⠀⠀⠀⠀⢸⠀⠀⠀⠀⢠⠀⣠⣷⣶⣿⠀⠀⢰⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠁⢀⠀⠀⠀⠀⠀⡙⠋⠙⠓⠲⢤⣤⣷⣤⣤⣤⣤⣾⣦⣤⣤⣶⣿⣿⣿⣿⡟⢹⠀⠀⢸⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠑⠀⢄⠀⡰⠁⠀⠀⠀⠀⠀⠈⠉⠁⠈⠉⠻⠋⠉⠛⢛⠉⠉⢹⠁⢀⢇⠎⠀⠀⢸⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣀⠈⠢⢄⡉⠂⠄⡀⠀⠈⠒⠢⠄⠀⢀⣀⣀⣰⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⢀⣎⠀⠼⠊⠀⠀⠀⠘⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⡀⠉⠢⢄⡈⠑⠢⢄⡀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁⠀⠀⢀⠀⠀⠀⠀⠀⢻⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣀⡈⠑⠢⢄⡀⠈⠑⠒⠤⠄⣀⣀⠀⠉⠉⠉⠉⠀⠀⠀⣀⡀⠤⠂⠁⠀⢀⠆⠀⠀⢸⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣄⡀⠁⠉⠒⠂⠤⠤⣀⣀⣉⡉⠉⠉⠉⠉⢀⣀⣀⡠⠤⠒⠈⠀⠀⠀⠀⣸⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣶⣶⣤⣤⣤⣤⣀⣀⣤⣤⣤⣶⣾⣿⣿⣿⣿⣿
 
-<div class="bg1"></div>
-<div class="bg1 bg4"></div>
-<div class="bg1 bg5"></div>
+-->
+<link rel="stylesheet" href="css/homePage.css">
 
 <div class="container">
     <div class="row mt-5">
-        <div class="col-12 mt-5 ">
-        </div> 
+        <div class="col-12 mt-5 "></div>
 
     </div>
 </div>
-<div class="container ">
-  <div class="row-12">
-    <div class="col">
-    
-    <h1>  <strong> La junior Agence</strong></h1>
-    <h4 > <regular>Que se passe-t-il lorsque vous prenez XX étudiant.e.s du Master REVI de l’Université de Bourgogne à Dijon, des êtres curieux de nature, et que vous les mettez ensemble ? La réponse est un concentré de curiosité, d’énergie et de potentiel : La Junior Agence/Le REVI Network. 
-Encadré par des experts dans les domaines de recherche et de veille informationnelle, cette fine équipe étudiante réalise des projets géniaux et ambitieux. <br> 
-    </h2></regular>
-  </div>
-  <div class="col-3"  >
-  </div >
-    <div class="col-3">
-  </div>
-</div>
 
-<input type="button" value="" onClick="AfficherMasquer()"  style="background:transparent;border:none ; width:20px"/>
-            <script type="text/javascript">
-                function AfficherMasquer()
-                {
-                divInfo = document.getElementById('divacacher');
-                var audio = new Audio('audio/audio.mp3').play()
-                
-                if (divInfo.style.display == 'none')
-                divInfo.style.display = 'block';
-                
-                
-                else
-                divInfo.style.display = 'none';
-                
-                }
-                
-                </script>
-               
-            
-                <div id="divacacher" style="display:none;">             
-                    <img src="img/tope.png"  alt="profile-image" class=" img-fluid w-50 h-50" style="z-index:1"/>
-                </div>
+     
+<!-- The video -->
+<div class="bloc">
+  <video src="video1.mp4" autoplay loop muted></video>
+  
+  </div>
+<!-- fin -->
 
-<div class="container backgroundBande " >
-  <div class="row-full shadow ">
+<div class="container-fluid backgroundBande  "  style="margin-top: -80px; margin-left:-2%">
+  <div class="row-full shadow  ">
       <span class="text-center "> 
-        
-          <div class="col-12 pt-4 ">
-          
-            <h1 class="fontbandeau" >Nos Compétences</h1>
-            
+        <div class="row ">
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
+          <div class="col-4 pt-4 ">
+            <h1 class="fontbandeau" >Le Master REVI</h1>
+          </div>
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
           </div>
         </div>
-      
+        </div>
       </span>
     </div>
 </div>
-<div class="container ">
-  <div class="row ">
-    <div class="col-1"></div>
-    <div class="col-10">
-      <div id="carouselExampleDark " class="carousel carousel-dark slide " data-bs-ride="carousel" >
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+<div class="container">
+  <div class="row" >
+  <h2 class="mt-5" style="text-align: justify;">Ce master comprend deux parcours, un parcours Ingénierie de la Recherche et un parcours Veille Internationale. Il s’adresse à des étudiants diplômés en langue étrangère (allemand, anglais, espagnol, niveau licence LLCER ou équivalent. Le niveau requis en français: C2. Débouchés: – chargé de veille, analyste en e-réputation, analyste de données d’opinion – enseignant, enseignant-chercheur, travail dans l’administration de la recherche.
+ </h2> </div>
+
+</div>
+
+<div class="container m-0 mt-5">
+ 
+    <img style="width:174%; margin-left:-2%" src="pied.jpg">
+ 
+</div>
+
+<div class="container-fluid backgroundBande  "  style="margin-top: -80px; margin-left:-2%">
+  <div class="row-full shadow  ">
+      <span class="text-center "> 
+        <div class="row ">
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
+          <div class="col-4 pt-4 ">
+            <h1 class="fontbandeau" >Nos Parcours</h1>
+          </div>
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
         </div>
-        <div class="carousel-inner carouselcontent">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="img/CommunicationNR.png" class="d-block w-100" >
-            <div class="carousel-caption d-none d-md-block">
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="10000">
-            <img src="img/RechercheNR.png" class="d-block  w-100">
-            <div class="carousel-caption d-none d-md-block">
-            
-            </div>
-          </div>
-          <div class="carousel-item " data-bs-interval="10000">
-            <img src="img/VeilleNR.png" class="d-block w-100 h-100">
-            <div class="carousel-caption d-none d-md-block">
-            
-            </div>
-          </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+      </span>
     </div>
-    <div class="col-1"></div>
+</div>
+
+<!-- Recherche -->
+
+<div class="container-fluid mt-5 ">
+  <div class="row">
+    <div class="col-4">
+    <h1 class="card-title text-center align-content-center" style="text-align: center; margin-left:20%"> Recherche </h1>
+            <br>
+            <h4 class="card-content" style="text-align: justify; margin-left:20%">Le parcours Recherche nécessite des étudiants ayant soif de curiosité, de recherche, d’approfondissement et d’interrogation. 
+            Les étudiants sont amenés à faire de la  traduction et relecture d’articles, mais apportent également un soutien logistique à des colloques. 
+            </h4> <br>
+            <h4 class="card-content" style="text-align: justify;  margin-left:20%">
+            Les étudiants apprennent les théories littéraires, l’analyse du discours et de nombreuses compétences linguistiques. La finalité de cette spécialité est de savoir rédiger des comptes-rendus et des synthèses, conduire une réflexion théorique sur la base de séminaires.
+            Ce parcours se destine aux étudiants voulant être spécialistes de civilisation / culture, métiers de l’enseignement et de la recherche. 
+            </h4>
+    </div>
+    <div class="col-7" style="margin-left:7%">
+    <video style="height: 100%;" src="recherche.mp4" autoplay loop muted></video>
+   
+    </div>
+
+
   </div>
 </div>
 
-<div class="container  mt-5">
-<div class="accordion " id="accordionPanelsStayOpenExample">
-  <div class="accordion-item backgroundText  ">
-    <h2 class="accordion-header " id="panelsStayOpen-headingOne">
-      <button class="accordion-button AcordionTitle-font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-        Communication
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show shadow" aria-labelledby="panelsStayOpen-headingOne">
-      <div class="accordion-body shadow">
-      Le cursus veille se basant sur l’analyse et la diffusion d’informations concernant notamment les réseaux sociaux, le community management est un des débouchés du Master REVI. La junior agence peut s’occuper de la communication de votre entreprise.
-      </div>
+<!--Fin de recherche -->
+
+<!-- Veille -->
+
+<div class="container-fluid mt-5 " style="margin-bottom: 10rem;">
+  <div class="row">
+    <div class="col-7">
+        <video style="height: 115%;margin-left: -2%" src="veille2.mp4" autoplay loop muted></video>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header shadow" id="panelsStayOpen-headingTwo">
-      <button class="accordion-button collapsed AcordionTitle-font" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-        Veille
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse shadow" aria-labelledby="panelsStayOpen-headingTwo">
-      <div class="accordion-body shadow">
-      Recherche, analyse et diffusion de l’information. La junior agence se chargera du traitement de données et la surveillance de environnement de votre entreprise pour anticiper ses évolutions.       </div>
+    <div class="col-4" style="margin-left:4%">
+    <h1 class="card-title text-center align-content-center" style="text-align: justify;  "> Veille </h1>
+            <br>
+            <h4 class="card-content" style="text-align: justify; ">Le parcours Veille Internationale permet aux étudiants de conduire une recherche approfondie, effectuer une veille informationnelle, y compris dans une langue étrangère, rédiger des synthèses, écrites ou orales. 
+            </h4> <br>
+            <h4 class="card-content"style="text-align: justify;  ">
+            Ils sauront transposer des connaissances pour divers publics d’apprenants, assurer la conduite et le soutien de projets de recherche, aider au pilotage des entreprises et institutions et rassembler des données pour les mettre au service de décideurs ou de commanditaires professionnels.
+Cette spécialité permettra aux étudiants de devenir chargé de veille et d’études, community manager, data analyst et d’autres métiers plus intéressants les uns que les autres.
+            </h4>
     </div>
+
+
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-      <button class="accordion-button collapsed AcordionTitle-font shadow" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-        Recherche
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse shadow" aria-labelledby="panelsStayOpen-headingThree">
-      <div class="accordion-body shadow">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-</div>
 </div>
 
-<div class="container backgroundBande " >
-  <div class="row-full shadow ">
-      <span class="text-center ">
-          <div class="col-12 pt-4 ">
+<!--Fin de veille -->
+
+
+<div class="container-fluid backgroundBande  "  style="margin-top: -80px; margin-left:-2%">
+  <div class="row-full shadow  ">
+      <span class="text-center "> 
+        <div class="row ">
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
+          <div class="col-4 pt-4 ">
+            <h1 class="fontbandeau" >La Junior Agence</h1>
+          </div>
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
+        </div>
+        </div>
+      </span>
+    </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <h2 class="mt-5" style="text-align: justify;">Que se passe-t-il lorsque vous prenez 20 étudiant.e.s du Master REVI de l’Université de Bourgogne à Dijon, des êtres curieux de nature, et que vous les mettez ensemble ? La réponse est un concentré de curiosité, d’énergie et de potentiel : La Junior Agence/Le REVI Network. Encadré par des experts dans les domaines de recherche et de veille informationnelle, cette fine équipe étudiante réalise des projets géniaux et ambitieux.     </h2> 
+  </div>
+</div>
+
+<div class="container-fluid backgroundBande  "  style="margin-top: -80px; margin-left:-2%">
+  <div class="row-full shadow  ">
+      <span class="text-center "> 
+        <div class="row ">
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
+          <div class="col-4 pt-4 ">
             <h1 class="fontbandeau" >Ils nous ont fait confiance</h1>
           </div>
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
         </div>
-      
+        </div>
       </span>
     </div>
 </div>
 
 <div class="container mt-5 ">
- 
   <div class=" row">
-  <div class="marquee">
-    <ul class="marquee-content">
-      <li><img src="img/OA.png" class="w-50"  aria-hidden="true"></i></li>
-      <li><img src="img/wd.png" class="w-50"  aria-hidden="true"></i></li>
-      <li><img src="img/idaos.png" class="w-50"  aria-hidden="true"></i></li>
-    </ul>
-  </div>
+    <div class="marquee">
+      <ul class="marquee-content">
+        <li><img src="img/OA.png" class="w-50"  aria-hidden="true"></i></li>
+        <li><img src="img/wd.png" class="w-50"  aria-hidden="true"></i></li>
+        <li><img src="img/idaos.png" class="w-50"  aria-hidden="true"></i></li>
+      </ul>
+    </div>
   </div>
 </div>
-<div class="container backgroundBande " >
-  <div class="row-full shadow ">
-      <span class="text-center ">
-          <div class="col-12 pt-4 ">
-            <h1 class="fontbandeau" >Nos réalisations</h1>
-          </div>
+
+<!--
+<section>
+    <div class="container mt-5" >
+    	<div class="row mt-5"  >
+    	    
+    		<div class="col-md-4 mt-5" >
+    		    <div class="card profile-card-a">
+    		        <img src="img/Fond.png" alt="profile-sample1" class="background"/>
+    		        <img src="img/pp1.jpg" alt="profile-image" class="profile"/>
+                    <div class="card-content">
+                    <h2>Juliette Montillot<small>secrétaire </small></h3>
+                    <div class="icon-block"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"></i></a></div>
+                    </div>
+                </div>
+               
+    		</div>
+    		
+    		<div class="col-md-4" >
+    		    <div class="card profile-card-a">
+    		        <img src="img/Fond.png" alt="profile-sample1" class="background"/>
+    		        <img src="img/pp3.jpg" alt="profile-image" class="profile"/>
+                    <div class="card-content ">
+                    <h2>Lou-Anne Grenouillet<small>Présidente</small></h3>
+                    <div class="icon-block"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> </i></a></div>
+                    </div>
+                </div>
+                
+    		</div>
+    		
+    		<div class="col-md-4 mt-5" >
+    		    <div class="card profile-card-a">
+    		        <img src="img/Fond.png" alt="profile-sample1" class="background"/>
+    		        <img src="img/pp2.jpg" alt="profile-image" class="profile"/>
+                    <div class="card-content">
+                    <h2>Coralie Adjam <small>trésorière</small></h3>
+                    <div class="icon-block"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"></i></a></div>
+                    </div>
+                </div>
+    		</div>
         </div>
-      
-      </span>
     </div>
 </div>
+-->
 
-
-
-<div class="container mt-5">
-  <div class="row  ">
-    <div class="row">
-      <div class="col-3"></div>
-      <div class="col-6">
-      <span class="text-center"><h4>Découvrez les réalisations dirigées par les étudiants du Master REVI</h4> </span>
-      </div>
-    <div class="col-3">
-  </div>
-</div>
-
-
-
-<div class="container-fluid mt-5">
-  </div class="row">
-    <div class="col-1 text-center">
-      <img src="img/default-image.jpg" class="w-50 img-fluid "  aria-hidden="true" id="img1">
-      <figcaption>Titre</figcaption>
-    </div>
-    <div class="col-1 text-center">
-      <img src="img/default-image.jpg" class="w-50 img-fluid pt-5"  aria-hidden="true" id="img2">
-      <figcaption>Titre</figcaption>
-    </div>
-    <div class="col-1 text-center">
-      <img src="img/default-image.jpg" class="w-50 img-fluid "  aria-hidden="true" id="img3">
-      <figcaption>Titre</figcaption>
-    </div>
-    <div class="col-1 text-center">
-      <img src="img/default-image.jpg" class="w-50 img-fluid pt-5"  aria-hidden="true" id="img4">
-      <figcaption>Titre</figcaption>
-    </div>
-    <div class="col-1 text-center">
-      <img src="img/default-image.jpg" class="w-50 img-fluid"  aria-hidden="true" id="img5">
-      <figcaption>Titre</figcaption>
-    </div>
-    <div class="col-1 text-center">
-      <img src="img/default-image.jpg" class="w-50 img-fluid pt-5"  aria-hidden="true" id="img6">
-      <figcaption>Titre</figcaption>
-    </div>
-    <div class="col-1 text-center">
-      <img src="img/default-image.jpg" class="w-50 img-fluid "  aria-hidden="true" id="img7">
-      <figcaption>Titre</figcaption>
-    </div>
-    <div class="col-1 text-center">
-      <img src="img/default-image.jpg" class="w-50 img-fluid pt-5 "  aria-hidden="true">
-      <figcaption>Titre</figcaption>
-    </div>
-    <div class="col-1 text-center">
-      <img src="img/default-image.jpg" class="w-50 img-fluid"  aria-hidden="true">
-      <figcaption>Titre</figcaption>
-    </div>
-    <div class="col-1 text-center">
-      <img src="img/default-image.jpg" class="w-50 img-fluid pt-5"  aria-hidden="true">
-      <figcaption>Titre</figcaption>
-    </div>
-    <div class="col-1 text-center">
-      <img src="img/default-image.jpg" class="w-50 img-fluid"  aria-hidden="true">
-      <figcaption>Titre</figcaption>
-    </div>
-    <div class="col-1 text-center">
-      <img src="img/default-image.jpg" class="w-50 img-fluid pt-5"  aria-hidden="true">
-      <figcaption>Titre</figcaption>
-    </div>
-  </div>
-
-</div>
-
-<div class="container d-inline">
-  <div class="row mt-5 ">
-    <div class="row">
-      <div class="col-2"></div>
-      <div class="col-8">
-      <span class="text-justify">
-
-<h4>ET SI ON ECHANGEAIT ?</h4>
-<p>Ces réalisations vous ont intéressés ? Vous rêvez d’en savoir plus sur l’agence et sur ce que l’on vous propose ? Vous souhaitez collaborer avec nous ? Nous serons heureux d’échanger avec vous !</p>
-
-              </span>
-      </div>
-<div class="col-2 "></div>
-
-<div class="container">
-    <div class="row">
-        <div class ="col-4"></div>
-        <div class="col-4">
-            <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <input class="btn btn-primary w-100 rounded" type="submit" value="Envoyer">
-        </div>
-        <div class ="col-4"></div>
-    </div>
-    
-</div>
-
-</script>
-        
 <?php include "inc/footer.php"; ?>
 

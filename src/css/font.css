@@ -1,32 +1,11 @@
-
-
 @font-face {
-    font-family: "Belleview";
-    src: url("/src/font/Belleview.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
+    font-family: "registra";
+    src: url("../font/registra.ttf") format("ttf"),
+         
+   }
 
-@font-face {
-    font-family: "Dayrom";
-    src: url("/src/font//DAYROM__.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "OldType";
-    src: url("/src/font/OldTypefaces.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-h1{
-    font-family: "Dayrom";
-    font-size: 32px;
-    
-  }
-  
-  h4{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+   @font-face {
+    font-family: "newyork";
+    src: url("../font/newyork.otf") format("otf"),
+         
+   }

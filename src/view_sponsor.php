@@ -1,17 +1,22 @@
 <?php include "inc/header.php"; ?>
-<div class="bg0"></div>
-<div class="bg0 bg2"></div>
-<div class="bg0 bg3"></div>
 
-<div class="bg1"></div>
-<div class="bg1 bg4"></div>
-<div class="bg1 bg5"></div>
-<html>
-    <body>
-    <p> tetetetetete </p>
-    <p> tetetetetete </p>
-        <h1 class="text-center mt-4">Nos Partenaires</h1>
-   
-    </body>
-</html>
+<br>
+<div class="container-fluid backgroundBande  "  style="margin-top: -80px; ">
+  <div class="row-full shadow  ">
+      <span class="text-center "> 
+        <div class="row ">
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
+          <div class="col-4 pt-4 ">
+            <h1 class="fontbandeau" >Nos Sponsors</h1>
+          </div>
+          <div class="col-4 pt-2" >
+            <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
+          </div>
+        </div>
+        </div>
+      </span>
+    </div>
+</div>
 <?php include "inc/footer.php"; ?>
