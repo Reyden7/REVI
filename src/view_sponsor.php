@@ -1,5 +1,11 @@
 <?php include "inc/header.php"; ?>
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-12  ">
+        </div> 
 
+    </div>
+</div>
 <br>
 <div class="container-fluid backgroundBande  "  style="margin-top: -80px; ">
   <div class="row-full shadow  ">

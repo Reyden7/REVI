@@ -143,7 +143,7 @@ Cette spécialité permettra aux étudiants de devenir chargé de veille et d’
 <!--Fin de veille -->
 
 
-<div class="container-fluid backgroundBande  "  style="margin-top: -80px; margin-left:-2%">
+<div class="container-fluid backgroundBande  mt-2"  style="margin-top: -80px; margin-left:-2%">
   <div class="row-full shadow  ">
       <span class="text-center "> 
         <div class="row ">
