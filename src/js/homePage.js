@@ -10,10 +10,6 @@ for(let i=0; i<marqueeElementsDisplayed; i++) {
 }
 //////////////////////////////////////
 
-let animation = anime({
 
-  targets:'h1',
-  translateX: '40%'
-})
 
 

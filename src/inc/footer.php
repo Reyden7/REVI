@@ -14,13 +14,13 @@
             </ul>
             <div class="container mt-2">
             <div class="row  text-center">
-                <div class="col-4 ">
-                    <a href ="https://langues-communication.u-bourgogne.fr/formation/master/recherche-et-veille-documentaire-revi.html">Découvrir le Master REVI</a>
+                <div class="col-4 " style="margin-left: 15rem;">
+                    <a class="lien" href ="https://langues-communication.u-bourgogne.fr/formation/master/recherche-et-veille-documentaire-revi.html">Découvrir le Master REVI</a>
                 </div>
                 <div class="col-4 text-justify">
                   
                 </div>
-                <div class="col-4 ">
+                <div class="col-4 " style="margin-left: -30rem;">
                
 
                 <button type="button" class="btn btn-secondary ms-2" data-bs-toggle="popover" title="Nos coordonées : " 
@@ -42,6 +42,7 @@
 <script src="js/nav.js"></script>
 <script src="js/homePage.js"></script>
 <script src="js/footer.js"></script>
+<script src="js/anime.js"></script>
 
 
 

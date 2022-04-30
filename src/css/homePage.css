@@ -15,10 +15,45 @@ body{
 
 }
 
+
+
 h1{
   font-family: newyork;
   font-weight: bold;
   font-size:  3rem;;
+}
+
+.bgParra{
+  background: rgb(255, 255, 255);
+}
+/*fleche*/
+.arrow{
+  background:url('https://cdn.discordapp.com/attachments/539194211614851082/969952602806698015/fleche2.png');
+  width:100%;
+  margin-top:42.5rem;
+  margin-left:18rem; 
+  height:100%; 
+  position:fixed ;
+  z-index:10;
+  background-repeat: no-repeat;
+}
+
+
+
+/*PARALAX*/
+#para1{
+  background: url("https://cdn.discordapp.com/attachments/539194211614851082/968242035867934801/telecharge.jpg");
+  width: 100%;
+  height: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+#para2{
+  background: url("");
+  background-attachment: fixed;
 }
 
 /*VIDEO*/
@@ -27,15 +62,23 @@ margin: 0;
 
 }
 .bloc {
-  position: relative;
-  height: 100vh;
+  position: fixed;
+  height: 100%;
   width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -60%);
   overflow: hidden;
+  background-size: cover;
   
   
+}
+
+
+.content{
+  position: relative;
+  z-index: 1;
+  margin-top: 44rem;
 }
 
 .bloc video{
@@ -59,44 +102,10 @@ margin: 0;
   left: 50%;
   background-color: #00000000;
   transform: translate(-50%, -50%);
-  z-index: -99;
+  z-index: 99;
 
 }
 
-.bloc2 {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  z-index: -100;
-  transform: translate(-50%, -50%);
-  
-  
-}
-
-.bloc2 video{
-  
-  position: absolute;
-  min-width: 100%;
-  min-height: 100%;
-  top: 50%;
-  left: 50%;
-  z-index: -100;
-  transform: translate(-50%, -50%);
-  
-}
-
-.bloc2:before{
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  background-color: #00000073;
-  z-index: -99;
-
-}
 
 
 /*END*/
