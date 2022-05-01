@@ -1,19 +1,8 @@
 <?php include "inc/header.php"; ?>
-<!-- The video -->
-<div class="blocEvent">
-  <video src="video1.mp4" autoplay loop muted></video>
-  
-  </div>
-<!-- fin -->
-<html>
-    
-    <body>
-    
-    <h1 class="text-center mt-4">Evènement</h1>
-    </body>
-</html>
 
-<div class="container-fluid backgroundBande  "  style="margin-top: -80px; ">
+
+
+<div class="container-fluid backgroundBande  mt-5"  style="margin-top: -80px; ">
   <div class="row-full shadow  ">
       <span class="text-center "> 
         <div class="row ">
@@ -32,5 +21,21 @@
     </div>
 </div>
 
+<!-- Facebook  -->
+<div class="container-fluid mt-5 p-0">
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4 align-content-center ml-5">
+      <div id="fb-root">
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v13.0" nonce="bM0R0ujx"></script>
+          <div class="fb-page" style="border-radius:10px ;"  data-href="https://www.facebook.com/Master-REVI-1491486864303181/" data-tabs="timeline" data-width="1500" data-height="500" data-small-header="true" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Master-REVI-1491486864303181/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Master-REVI-1491486864303181/%22%3EMasterREVI"></a></blockquote></div>
+      </div>
+    <div class="col-4"></div>
+
+  </div>
+</div>
+
+
+<!-- Fin Facebook -->
 
 <?php include "inc/footer.php"; ?>
