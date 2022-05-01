@@ -55,17 +55,17 @@ Désolé si ce site est moche, le developpeur aussi aurait aimer avoir une maque
 
 </div>
 <section class=" content bgParra " style="margin-top: 46rem;" >
-<div data-aos="fade-up" class="container-fluid backgroundBande"  style="margin-top: -7rem; margin-left:-2%" id="bandeau">
+<div data-aos="fade-up" class="container-fluid backgroundBande d-sm-none d-lg-block"  style="margin-top: -7rem; margin-left:-2%" id="bandeau">
   <div class="row-full shadow  ">
       <span class="text-center "> 
         <div class="row ">
-          <div class="col-4 pt-2" >
+          <div class="col-lg-4 pt-2" >
             <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
           </div>
-          <div class="col-4 pt-4 ">
+          <div class="col-lg-4 pt-4 ">
             <h1 class="fontbandeau" >Le Master REVI</h1>
           </div>
-          <div class="col-4 pt-2" >
+          <div class="col-lg-4 pt-2" >
             <img style="width:65%;" src="https://cdn.discordapp.com/attachments/948510159582429254/969350159010000976/arabesque2.png" class="img-fluid">
           </div>
         </div>
