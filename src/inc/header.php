@@ -38,14 +38,105 @@ In-Demand Professions, Mobile-Friendly Websites Automatically, Sample Headline, 
 </head>
 
 
-<nav class=" shadow fixed-top bg  " style="background-color:#444444; opacity : 0.7; " >
+
+<!--
+<nav class="navbar navbar-expand-lg navbar-light shadow fixed-top bg " style="background-color:#444444; opacity : 0.7; ">
+  <div class="container-fluid">
+  <div class="row align-content-center">
+           <div class="row m-0 p-0">
+               <div class="col-7 m-0 p-0">
+               <div>  
+                    <a  href="view_homepage.php"  style="color:white; font-family: newyork; font-size:3rem; margin-top:30px"><strong>L'AGENCE</strong></a>
+                </div>
+               </div>
+               <div class="col-4">
+                    <div class="logo-image" style="width:35%; ">
+                        <img src="https://cdn.discordapp.com/attachments/948510159582429254/969324735320162334/LogoREVIBlancepais.png" class="img-fluid">
+                    </div>
+               </div>
+           </div>
+               
+        </div>
+    <a class="navbar-brand"  href="view_homepage.php" style="color: white;" >Menu</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" ></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+          <div class="row nav-item">
+              <div class="col-2">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page"  href="view_event.php" style="color:white; font-size:1.5rem; " >Evènements</a>
+                </li>
+              </div>
+               <div class="col-2">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="view_office.php" style="color:white; font-size:1.5rem; " >Bureau</a>
+                </li>
+               </div>
+               <div class="col-2">
+                <li class="nav-item">
+                    <a  href="view_sponsor.php" style="color:white; font-size:1.5rem; " >Nos partenaires</a>
+                </li>
+               </div>
+               <div class="col-2">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="view_annuaire.php" style="color:white; font-size:1.5rem; " >The REVI network</a>
+                </li>
+               </div>
+               <div class="col-2">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="view_contact.php" style="color:white; font-size:1.5rem; " >Nous contacter</a>
+                </li>
+               </div>
+               <div class="col-2">
+                <li class="nav-item">
+                    <div class="logo-image" style="width:25%; margin-left:10%">
+                        <img  src="https://cdn.discordapp.com/attachments/948510159582429254/969344236782755850/ub.png" class="img-fluid">
+                    </div>
+                </li>
+            </div>
+               
+          </div>
+        
+      </ul>
+  </div>
+</nav>-->
+<nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top bg " style="background-color:#444444; opacity : 0.7; ">
+  <div class="container-fluid">
+    <a class="navbar-brand text-center align-content-center d-md-block d-lg-block d-sm-none " href="view_homepage.php"  style="color:white; font-family: newyork; font-size:3rem;"><strong>L'AGENCE</strong></a>
+    <div class="logo-image  d-lg-block d-md-none d-sm-block  ml-md-0" href="view_event.php" style="width:10%; ">
+        <a href="view_homepage.php">
+            <img src="https://cdn.discordapp.com/attachments/948510159582429254/969324735320162334/LogoREVIBlancepais.png" class="img-fluid">
+        </a>             
+    </div>
+    <button style="margin-left: 0%;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span  class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav text-center align-content-center">
+        <a class="nav-link ml-md-5  d-lg-none d-md-none d-sm-block "  aria-current="page" href="view_event.php"style="color:white; font-size:1.5rem; font-family: newyork;" ><strong>L'AGENCE</strong></a>
+        <a class="nav-link ml-md-5 "  aria-current="page" href="view_event.php"style="color:white; font-size:1.5rem; " >Evènements</a>
+        <a class="nav-link ml-md-5" href="view_office.php"style="color:white; font-size:1.5rem; " >Bureau</a>
+        <a class="nav-link ml-md-5" href="view_sponsor.php"style="color:white; font-size:1.5rem; " >Nos partenaires</a>
+        <a class="nav-link ml-md-5" href="view_contact.php"style="color:white; font-size:1.5rem; ">Nous contacter</a>
+        
+        
+      </div>
+      <div class="logo-image  d-lg-block d-md-none d-sm-none " style="width:5%; margin-left:40rem ">
+            <img  src="https://cdn.discordapp.com/attachments/948510159582429254/969344236782755850/ub.png" class="img-fluid">
+        </div>
+    </div>
+  </div>
+</nav>
+<!--<nav class=" shadow fixed-top bg  " style="background-color:#444444; opacity : 0.7; " >
 <div class="container-fluid ">
-    <div class="row align-content-center pt-2 pb-1 mt-2">
+    <div class="row align-content-center">
         <div class="col-2">
            <div class="row">
                <div class="col-7">
                <div>  
-                    <a  href="view_homepage.php"  style="color:white; font-family:  newyork;  font-size:3rem"><strong>L'AGENCE</strong></a>
+                    <a  href="view_homepage.php"  style="color:white; font-family: newyork; font-size:3rem; margin-top:30px"><strong>L'AGENCE</strong></a>
                 </div>
                </div>
                <div class="col-4">
@@ -56,7 +147,7 @@ In-Demand Professions, Mobile-Friendly Websites Automatically, Sample Headline, 
            </div>
                
         </div>
-        <div class="col-10 ">
+        <div class="col-10 mt-1 ">
         <div class="row text-center " >
                     <div class="col-2 pt-2" style="border-right: solid; border-color:white">
                         <a  href="view_event.php" style="color:white; font-size:1.5rem; " >Evènements</a>
@@ -74,9 +165,9 @@ In-Demand Professions, Mobile-Friendly Websites Automatically, Sample Headline, 
                         <a href="view_contact.php" style="color:white; font-size:1.5rem" >Nous contacter</a>
                     </div>
                     <div class="col-2 pt-2" >
-                    <div class="logo-image" style="width:25%; margin-left:10%">
-                        <img src="https://cdn.discordapp.com/attachments/948510159582429254/969344236782755850/ub.png" class="img-fluid">
-                    </div>
+                        <div class="logo-image" style="width:25%; margin-left:10%">
+                            <img src="https://cdn.discordapp.com/attachments/948510159582429254/969344236782755850/ub.png" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,3 +180,4 @@ In-Demand Professions, Mobile-Friendly Websites Automatically, Sample Headline, 
   <div>
 </div>
 </nav>
+-->
