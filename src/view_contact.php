@@ -38,16 +38,20 @@
     <div class="row">
         <div class ="col-4"></div>
         <div class="col-4">
-            <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <input class="btn btn-primary w-100 rounded" type="submit" value="Envoyer">
-        </div>
+        <form action="https://formspree.io/f/xlevlygd" method="POST">   
+          <div class="mb-3">
+
+              <label for="exampleFormControlTextarea1" class="form-label">Vos informations</label>
+              <input  class="form-control" type="text" name="name" placeholder="Votre Nom et Prenom" require>
+              <input type="email" name ="email" class="form-control" id="exampleFormControlInput1" placeholder="Votre e-mail" require>
+              </div>
+              <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Votre message</label>
+              <textarea name="Message" class="form-control" id="exampleFormControlTextarea1" rows="3" require></textarea>
+              </div>
+              <input class="btn btn-primary w-100 rounded" type="submit" value="Envoyer">
+          </div>
+        </form>
         <div class ="col-4"></div>
     </div>
     
